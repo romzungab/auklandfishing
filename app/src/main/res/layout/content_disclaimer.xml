@@ -78,7 +78,8 @@
         android:layout_below="@+id/textView8"
         android:layout_alignStart="@+id/textView4"
         android:background="#98ffffff"
-        android:textSize="15dp" />
+        android:textSize="15dp"
+        android:onClick="buttonAgree" />
 
     <Button
         android:layout_width="wrap_content"
@@ -90,5 +91,6 @@
         android:layout_alignBottom="@+id/buttonAgree"
         android:layout_toEndOf="@+id/buttonAgree"
         android:background="#9effffff"
-        android:textSize="15dp" />
+        android:textSize="15dp"
+        android:onClick="buttonDisagree" />
 </RelativeLayout>

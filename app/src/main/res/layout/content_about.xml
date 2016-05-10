@@ -21,7 +21,7 @@
         android:id="@+id/textView17"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textSize="25dp"
+        android:textSize="28dp"
         android:textColor="#ffffff" />
 
     <TextView
@@ -30,7 +30,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="New Zealand provides local fishing and safety information for New Zealand waters."
         android:id="@+id/textView18"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="5dp"
         android:layout_below="@+id/textView17"
         android:layout_alignParentStart="true" />
 
@@ -58,6 +58,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="ABOUT"
+        android:layout_marginTop="8dp"
         android:id="@+id/textView21"
         android:layout_below="@+id/textView19"
         android:layout_alignParentStart="true" />
@@ -71,14 +72,14 @@
         android:layout_below="@+id/textView21"
         android:layout_alignParentStart="true"
         android:layout_marginStart="28dp"
-        android:textSize="15dp" />
+        android:textSize="16dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Safety Equipment Checklist"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="8dp"
         android:id="@+id/textView23"
         android:layout_below="@+id/textView22"
         android:layout_alignParentStart="true" />
@@ -87,10 +88,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Safety Equipment Checklist"
+        android:text="Safety checklist you need to bring for your trip"
         android:id="@+id/textView24"
         android:layout_below="@+id/textView23"
-        android:layout_alignStart="@+id/textView22" />
+        android:layout_alignStart="@+id/textView22"
+        android:textSize="16dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -100,7 +102,7 @@
         android:id="@+id/textView25"
         android:layout_below="@+id/textView24"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="29dp" />
+        android:layout_marginTop="10dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -109,7 +111,8 @@
         android:text="A list of common fishing questions"
         android:id="@+id/textView26"
         android:layout_below="@+id/textView25"
-        android:layout_alignStart="@+id/textView24" />
+        android:layout_alignStart="@+id/textView24"
+        android:textSize="16dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -119,7 +122,7 @@
         android:id="@+id/textView27"
         android:layout_below="@+id/textView26"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="27dp" />
+        android:layout_marginTop="10dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -128,16 +131,19 @@
         android:text="Rules about fishing in New Zealand"
         android:id="@+id/textView28"
         android:layout_below="@+id/textView27"
-        android:layout_alignStart="@+id/textView26" />
+        android:layout_alignStart="@+id/textView26"
+        android:textSize="16dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Fish"
+        android:text="Types of Fish"
+        android:layout_marginTop="10dp"
         android:id="@+id/textView29"
         android:layout_below="@+id/textView28"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textIsSelectable="false" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -146,6 +152,17 @@
         android:text="Different types of fishes you could catch in New Zealand waters"
         android:id="@+id/textView30"
         android:layout_below="@+id/textView29"
-        android:layout_alignStart="@+id/textView28" />
+        android:layout_alignStart="@+id/textView28"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Forum"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView31"
+        android:layout_below="@+id/textView30"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
