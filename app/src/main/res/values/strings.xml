@@ -96,4 +96,5 @@
     </string>
     <string name="title_activity_faqs">FaqsActivity</string>
     <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_checklist">ChecklistActivity</string>
 </resources>
